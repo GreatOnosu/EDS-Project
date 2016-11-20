@@ -58,7 +58,7 @@
 .inner-text{
 	position: relative;
 	text-align: center;
-	height: 360px;
+	height: 400px;
 	color: #fff;
 }
 .inner-text p{
@@ -198,6 +198,9 @@
 	overflow: hidden;
 	box-shadow: 0 0px 20px 0 rgba(0, 0, 0, 0.8);
 }
+#ab-flex img{
+	width: 1500px;
+}
 .ab-inner-text{
 	position: relative;
 	text-align: center;
@@ -300,6 +303,30 @@ button:hover{
 	}
 }
 @media only screen and (max-width: 500px){
+	.logo-title{
+		display: none;
+	}
+	.nav-bar{
+		display: flex;
+		align-content: center;
+	}
+	.nav-title{
+		margin: 5px;
+	}
+	.inner-text{
+		font-size: 32px;
+	}
+	.intro-note{
+		padding: 10px;
+	}
+	.intro-note h2{
+		font-size: 38px;
+		margin: 5px;
+	}
+	.intro-btn{
+		padding: 10px 40px;
+		margin-top: 5px;
+	}
 	.boxes{
 		-webkit-flex-wrap: wrap;
     	flex-wrap: wrap;
