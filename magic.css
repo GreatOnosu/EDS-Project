@@ -1,0 +1,325 @@
+/********************** Magic Styles *********************************/
+#fl-flex{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 520px;
+	overflow: hidden;
+	box-shadow: 0 0px 20px 0 rgba(0, 0, 0, 0.8);
+}
+#fl-flex img{
+	width: 1500px;
+}
+.green-top{
+	background-color: #4A8F21;
+	height: 5px;
+}
+.nav-bar{
+	position: relative;
+	padding: 30px;
+}
+.logo-title{
+	color: #fff;
+	text-shadow: 1px 1px 1px #000;
+	font-size: 32px;
+}
+.nav-title{
+	float: right;
+	background-color: #4A8F21;
+	border-radius:5px;
+	padding: 5px 10px;
+	font-size: 16px;
+	margin: 5px 10px;
+}
+.nav-title:hover{
+	background: transparent;
+	border: 1px solid #4A8F21;
+	cursor: pointer;
+}
+.nav-title a{
+	text-decoration: none;
+	color: #fff;
+}
+.ctus-title{
+	background-color: #5fb92a;
+	padding: 15px 60px;
+	font-size: 24px;
+	border-radius: 4px;
+}
+.ctus-title a{
+	text-decoration: none;
+	color: #fff;
+}
+.ctus-title:hover{
+	background-color: #4A8F21;
+	cursor: pointer;
+}
+.inner-text{
+	position: relative;
+	text-align: center;
+	height: 360px;
+	color: #fff;
+}
+.inner-text p{
+	text-shadow: 1px 1px 5px #000;
+	font-size: 42px;
+	font-weight: 800;
+	word-spacing: 2px;
+}
+.intro-note{
+	background-color: #eee;
+	text-align: center;
+	padding: 50px;
+}
+.intro-note h2{
+	color: #3e3e3e;
+	font-size: 48px;
+	margin: 10px;
+}
+.intro-note h4{
+	color: #3e3e3e;
+	font-size: 28px;
+	margin: 0;
+}
+.intro-note h6{
+	color: #1a1a1a;
+	font-size: 18px;
+}
+.intro-btn{
+	background-color: #4A8F21;
+	padding: 15px 60px;
+	font-size: 24px;
+	border-radius: 4px;
+	margin-top: 10px;
+}
+.intro-btn a{
+	text-decoration: none;
+	color: #fff;
+}
+.intro-btn:hover{
+	background-color: #5b5b5b;
+	cursor: pointer;
+	transition: all 0.25s ease 0s;
+}
+.boxes{
+	display: flex;
+	display: -webkit-flex;
+	background-color: #eee;
+}
+.box-title{
+	text-align: center;
+	font-size: 48px;
+	font-weight: 600;
+	color: #4A8F21;
+	text-shadow: 1px 1px 1px #999;
+}
+.boxes div{
+	position: relative;
+	overflow: hidden;
+	background-color: #eee;
+	width: 25%;
+	height: 225px;
+	margin: 10px;
+	box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.2);
+}
+.boxes div:hover{
+	box-shadow: 0 12px 20px 3px rgba(0, 0, 0, 0.4);
+	cursor: pointer;
+	border-radius: 50%;
+	transition: all .6s;
+}
+.boxes div .inner-img{
+	width: 800px !important;
+	height: 800px;
+	top: -50px;
+	left: -50px;
+	background-color: rgba(255, 255, 255, 0.1);
+	color: transparent;
+	padding: 120px 0 0 180px;
+	font-size: 4px;
+}
+.boxes div .inner-img:hover{
+	background-color: rgba(95, 185, 42, .65); 
+	color: #fff;
+	font-size: 24px;
+	border-radius: 0 !important;
+	padding: 120px 0 0 80px;
+	 -webkit-transition: font-size .2s, padding .6s, background-color 1s ease;
+    transition: font-size .2s, padding .6s, background-color 1s ease;
+}
+.end-note{
+	background-image: url("images/pizza.jpg");
+	background-attachment: fixed;
+	height: 300px;
+	margin-top: 20px;
+	text-align: center;
+	color: #fff;
+	padding: 30px;
+}
+.end-note h2{
+	font-size: 38px;
+}
+.end-note h4{
+	font-size: 22px;
+	margin: 0;
+}
+.end-btn{
+	background-color: #fff;
+	padding: 15px 60px;
+	font-size: 24px;
+	border-radius: 4px;
+}
+.end-btn a{
+	text-decoration: none;
+	color: #4A8F21;
+}
+.end-btn:hover{
+	background-color: transparent;
+	border: 1px solid #fff;
+	cursor: pointer;
+	transition: all 0.25s ease 0s;
+	text-shadow: 1px 1px 3px #000;
+}
+#foot-note{
+	background-color: #4A8F21;
+	color: #fff;
+	height: 50px;
+	text-align: center;
+	padding: 20px;
+}
+/******************************************** About Us *****************************************************/
+#ab-flex{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 320px;
+	overflow: hidden;
+	box-shadow: 0 0px 20px 0 rgba(0, 0, 0, 0.8);
+}
+.ab-inner-text{
+	position: relative;
+	text-align: center;
+	height: 260px;
+	color: #fff;
+	text-shadow: 1px 1px 5px #000;
+	font-size: 42px;
+	font-weight: 800;
+	word-spacing: 2px;
+}
+.about-us{
+	padding: 0 60px;
+	margin: 0 60px;
+}
+.about-us h2{
+	text-align: center;
+	font-size: 48px;
+	color:  #4A8F21;
+}
+.about-us h4{
+	text-align: center;
+	font-size: 24px;
+	font-weight: 200;
+}
+.intro-ct{
+	display: flex;
+}
+.ab-img{
+	margin-top: 20px;
+}
+.ab-intro{
+	text-align: justify;
+	padding: 0 50px;
+	font-size: 20px;
+	color: #666;
+}
+#team div{
+	height: 300px !important;
+}
+.contact-us{
+	text-align: center;
+	padding: 60px;
+}
+.contact-us h2{
+	font-size: 48px;
+	color:  #4A8F21;
+}
+.ct-form{
+	padding: 30px 200px;
+	background-color: #4A8F21;
+}
+input[type=text], select, input[type=email],textarea {
+    width: 100%;
+    padding: 15px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: transparent;
+    color: #fff;
+    font-size: 14px;
+}
+input[type=text]:focus, select:focus, input[type=email]:focus,textarea:focus{
+	border: 1px solid #999;
+	transition: all .5s ease-in;
+	-webkit-transition: all .5s ease-in;
+	background-color: rgba(255, 255, 255, .24);
+}
+button{
+	color: #fff;
+	border: 2px solid #fff;
+	background-color: transparent;
+	padding: 10px 60px;
+	font-size: 18px;
+}
+button:hover{
+	background-color: rgba(225, 225, 225, .65);
+	color: #4A8F21;
+	cursor: pointer;
+}
+/******************************* Media Query *********************************/
+@media only screen and (max-width: 800px){
+	.boxes{
+		-webkit-flex-wrap: wrap;
+    	flex-wrap: wrap;
+	}
+	.boxes div{
+		width: 45% !important;
+	}
+	.boxes div .inner-img{
+		width: 800px;
+	}
+	.end-note h2{
+		font-size: 34px;
+	}
+	.end-note h4{
+		font-size: 20px;
+		margin: 0;
+	}
+}
+@media only screen and (max-width: 500px){
+	.boxes{
+		-webkit-flex-wrap: wrap;
+    	flex-wrap: wrap;
+    	align-content: center;
+	}
+	.boxes div{
+		width: 80% !important;
+		margin: 10px auto;
+	}
+	.end-note h2{
+		font-size: 32px;
+	}
+	.end-note h4{
+		font-size: 18px;
+		margin: 0;
+	}
+	.end-btn{
+		background-color: #fff;
+		padding: 5px 20px;
+		font-size: 22px;
+		border-radius: 4px;
+	}
+}
